@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+} 
+
+.header .nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.promo-banner h1 {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.info-columns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.info-box {
+    flex: 1;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 200px;
+}
+
+.info-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
