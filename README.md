@@ -14,3 +14,6 @@ This project is a fictional website for a jewelry brand. It was built as a part 
 - HTML
 - CSS
 - Visual Studio Code
+
+## Screenshot
+![Image](https://github.com/user-attachments/assets/4e5281a5-71e8-4b83-91a2-8aebdb3d6ec4)
