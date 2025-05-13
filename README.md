@@ -8,7 +8,7 @@ This project is a fictional website for a jewelry brand. It was built as a part 
 - Elegant layout using semantic HTML.
 - Custom fonts and color palette to reflect brand identity.
 - Sections for homepage, products, contact, and info.
-- Navigation bar and footer with social media icons.
+- Navigation bar and footer.
 
 ## Tools & Technologies
 - HTML
